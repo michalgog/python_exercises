@@ -49,12 +49,11 @@ def game():
         print("Do you want to play again?")
 
 print(input("Do we play again? Y / N"))
+# add logic here
 
 '''
-
 scissors > papper
 papper < rock
 rock > scissors
 papper > rock
-
 '''
