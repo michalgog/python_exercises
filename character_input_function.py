@@ -1,9 +1,15 @@
+"""
+Create a program that asks the user to enter their name and their age.
+Print out a message addressed to them that tells them the year that they will turn 100 years old.
+"""
+
 import datetime
+
 
 def the_old_man():
     # getting data from user
-    user_name = input("what is your name > ")
-    user_age = input("What is you are > ")
+    user_name = input("what is your name: ")
+    user_age = input("What is you are age: ")
 
     # changing user_age to integer, it was a string before
     integer_age = int(user_age)

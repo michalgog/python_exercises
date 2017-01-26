@@ -1,15 +1,8 @@
-# num = input("Pick a number: ")
-# check = int(num)
-# double_check = check % 2
-#
-#
-# if double_check == 0 or double_check / 4:
-#     print (num, "is even")
-#     print (num, "is multiple of 4")
-# elif double_check == 1:
-#     print (num, "is odd")
-# else:
-#     print("Is not a number")
+"""
+Ask the user for a number.
+Depending on whether the number is even or odd, print out an appropriate message to the user.
+"""
+
 
 num = int(input("give me a number to check: "))
 check = int(input("give me a number to divide by: "))
