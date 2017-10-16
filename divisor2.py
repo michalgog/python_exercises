@@ -1,14 +1,14 @@
 num = int(input("Enter number: "))
 
-listRange = list(range(1, num + 1))
+list_range = list(range(1, num + 1))
 
-divList = []
+div_list = []
 
 for number in listRange:
     if num % number == 0:
-        divList.append(number)
+        div_list.append(number)
 
-print(divList)
+print(div_list)
 
 
 
